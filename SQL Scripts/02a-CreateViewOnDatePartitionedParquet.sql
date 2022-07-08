@@ -1,4 +1,4 @@
-ALTER VIEW YellowTaxiTrips
+CREATE VIEW YellowTaxiTrips
 AS
 SELECT
     CAST(vendorId as INT) as vendorId,
